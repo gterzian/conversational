@@ -27,7 +27,7 @@ struct ContentView: View {
     @State private var currentURL = URL(string: "https://www.apple.com")!
     @State private var predictedURLs: [String] = []
     @State private var showPredictions = false
-    @StateObject private var ollamaService = OllamaService()
+    @State private var ollamaService = OllamaService()
     
     // Debounce timer
     @State private var debounceTask: Task<Void, Never>?

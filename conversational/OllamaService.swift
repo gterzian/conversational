@@ -7,8 +7,7 @@
 
 import Foundation
 
-@MainActor
-class OllamaService: ObservableObject {
+actor OllamaService {
     private let baseURL = "http://localhost:11434"
     private let model = "gemma3n:e4b"
     

@@ -36,13 +36,13 @@
 				<key>focused</key>
 				<string></string>
 				<key>leading</key>
-				<string>        
-        guard let url = URL(string: "\(baseURL)/api/chat") else {
+				<string>        guard let url = URL(string: "\(baseURL)/api/chat") else {
+            print("Invalid Ollama URL")
     </string>
 				<key>trailing</key>
-				<string>        print("Invalid Ollama URL")
-            return []
+				<string>        return []
         }
+        
 </string>
 			</dict>
 			<key>title</key>
